@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+  <link rel="stylesheet" href="../assets/font-awesome-4.7.0/css/font-awesome.css">
+  <script src="../js/jquery-3.1.1.min.js">
+
+  </script>
+  <style>
+    body{
+      background-color: gray;
+      margin: 0;
+    }
+    *{
+      box-sizing: border-box;
+    }
+    nav{
+      width: 100%;
+      background-color: white;
+      padding: 14px;
+    }
+    .nav-l,.nav-r{
+      width: 49%;
+      display: inline-block;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+    .nav-l span,.nav-r span{
+      padding: 8px 0;
+      border-bottom:3px solid white;
+    }
+    span.on{
+      border-bottom:3px solid cornflowerblue;
+      color: cornflowerblue;
+    }
+    a.foc{
+      font-weight: bold;
+      border-left: 3px solid cornflowerblue;
+      font-size: 1.4rem;
+      background-color: whitesmoke;
+    }
+    .main-l{
+      width: 140px;
+      overflow-y: scroll;
+      background-color: #aaa;
+      float: left;
+    }
+    .main-l  a{
+      display: block;
+      width: 100%;
+      padding: 18px 14px ;
+      font-size: 1.3rem;
+      margin: 0;
+      text-decoration: none;
+      color: #666;
+      border-bottom: 1px solid #555;
+    }
+    .main-r{
+      padding: 0 0 0 140px;
+     }
+    .main-r > p{
+      background-color: aliceblue;
+      padding: 15px;
+      margin: 0;
+    }
+    .main-r > p span:nth-of-type(1){
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+    .main-r > p .fa-ellipsis-h{
+      float: right;
+      position: relative;
+      top: 8px;
+    }
+    .main-r section{
+      background-color: whitesmoke;
+      padding: 12px;
+      height: 180px;
+      overflow: hidden;
+      position: relative;
+    }
+    .main-r section img{
+      float: left;
+      width: 150px;
+      height: 150px;
+      border-radius: 5px;
+      margin-right: 15px;
+    }
+    .main-r section h3{
+      margin: 0;
+    }
+    .main-r section p{
+      margin: 0;
+      padding: 6px 0;
+      font-size: 1.2rem;
+    }
+    .main-r section p span{
+      font-size: 1rem;
+    }
+    .sec-bot{
+      position: absolute;
+      bottom: 12px;
+      left: 180px;
+      color: orangered;
+    }
+    .main-r{
+      position: absolute;
+      width: 100%;
+      top: 59px;
+      padding: 0 0 0 150px;
+      background-color: whitesmoke;
+      height: calc(100vh - 260px);
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="nav-l"> <span class="on">商品</span></div>
+  <div class="nav-r"> <span>评价</span></div>
+</nav>
+<div>
+  <div class="main-l">
+  <a href="#" class="foc">单人套参</a>
+  <a href="#">单人套单人套参</a>
+  <a href="#">单人套</a>
+  <a href="#" class="foc">单人套</a>
+  <a href="#">单人套</a>
+  <a href="#">单人套</a>
+</div>
+  <div class="main-r">
+    <p>
+      <span>热销榜</span> <span>大家喜欢吃才才叫好吃</span>
+      <i class="fa fa-ellipsis-h fa-1x"></i>
+    </p>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section class="add">
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+    <section>
+      <img src="../assets/vux_logo.png" alt="">
+      <h3>黑土豆</h3>
+      <p><span>我的最爱原来是饭</span></p>
+      <p>月份小赖那个圣诞节</p>
+      <p class="sec-bot"> <span>$</span>16reb</p>
+    </section>
+  </div>
+</div>
+<script>
+
+// console.log(bar)
+ document.querySelector('.main-r').onscroll = function(){
+   var bar = document.querySelector('.main-r').scrollHeight
+   var barss = document.querySelector('.add').scrollTop
+   var barsss = document.querySelector('.add').offsetTop
+   var barsss = document.querySelector('.main-r').scrollTop
+   var bars = $('.add').position()
+   console.log(bar)
+   console.log(bars)
+   console.log(barss)
+   console.log(barsss)
+ }
+
+</script>
+</body>
+</html>

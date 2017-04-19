@@ -1,0 +1,8 @@
+animate.css 是一个来自国外的 CSS3 动画库，它预设了抖动（shake）、闪烁（flash）、弹跳（bounce）、翻转（flip）、旋转（rotateIn/rotateOut）、淡入淡出（fadeIn/fadeOut）等多达 60 多种动画效果，几乎包含了所有常见的动画效果。
+引入文件: <link rel="stylesheet" href="animate/animate.min.css">   HTML 及使用    <div class="animated bounce" id="dowebok"></div>   如果动画是无限播放的，可以添加 class infinite。
+也可以自己设置：
+#dowebok {
+    animation-duration: 2s;    /*动画持续时间*/
+    animation-delay: 1s;    /*动画延迟时间*/
+    animation-iteration-count: 2;    /*动画执行次数*/
+}
